@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChronoSnap</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>ChronoSnap – Time-Travel Selfie Booth</h1>
+    <p>Upload a selfie and watch yourself travel across eras.</p>
+    <p>Each scenario includes a bundled reference background.</p>
+    <input type="file" id="photo" accept="image/*" />
+    <select id="scenarios" multiple>
+      <option value="Ancient Egypt pyramid">Ancient Egypt</option>
+      <option value="Renaissance art studio">Renaissance</option>
+      <option value="futuristic Mars colony">Future Mars</option>
+    </select>
+    <button id="generate">Generate</button>
+    <section id="results"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
